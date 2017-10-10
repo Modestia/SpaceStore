@@ -30,14 +30,9 @@
   .carousel-caption h3 {
       color: #fff !important;
   }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
   
   .banner {
-    background-image: url(assets/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     width: 100%;
     display: table;
   }
@@ -68,19 +63,26 @@
 
 
     .store-block {
-      padding: 10px;
+      padding: 20px;
+      height: 180px;
     }
 
     .knowbg {
-      background-image: url(assets/img/knowbg.jpg);
+      background-image: url(../img/knowbg.jpg);
+    }
+    .knowbg h3 {
+      color: #fff;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
     }
     .knowbg p {
-      color: black;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
     }
-    @media (max-width: 768px) {
-        .knowbg {
-          height: 200vh;
-        }
+    @media screen and (max-width: 767px) {
+      .knowbg {
+        background-repeat: no-repeat;
+        top: 0; bottom: 0;
+      }
     }
 
   .bg-1 {
@@ -105,6 +107,7 @@
   .thumbnail p {
       margin-top: 15px;
       color: #555;
+      padding: 0 20px;
   }
   .btn {
       padding: 10px 20px;
