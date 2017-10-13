@@ -82,6 +82,7 @@
       .knowbg {
         background-repeat: no-repeat;
         top: 0; bottom: 0;
+        background-size: cover;
       }
     }
 
